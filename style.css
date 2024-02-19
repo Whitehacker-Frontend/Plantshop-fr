@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+/* navbar */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.navbar{
+    margin-top: -860px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.links, .navbar-links, .container{
+    display: flex;
+}
+.navbar-links a{
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #156963;
+}
+.navbar-links a:hover{
+    background-color: #156963;
+    color: white;
+}
+.links i{
+    margin-left: 40px;
+}
+/* navbar end  */
+/* header */
+header{
+    height: 740px;
+    margin-bottom: 162px;
+}
+.header-left, .header-buttons, header, .container-button, footer{
+    display: flex;
+}
+.header-right{
+    padding-top: 186px;
+}
+.header-right h1{
+    color: var(--akana-green, #156963);
+    font-size: 76px;
+    font-weight: 500;
+    width: 523px;
+    margin-bottom: 20px;
+    margin-left: 77px;
+}
+.header-right p{
+    width: 493px;
+    color: var(--kq-black, #2C1500);
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 77px;
+    margin-bottom: 110px;
+}
+.header-buttons{
+    margin-left: 100px;
+}
+.header-button{
+    width: 320px;
+    height: 160px;
+}
+.button-div h2{
+    color: #156963;
+    font-size: 32px;
+    font-weight: 500;
+}
+.vector p{
+    color: var(--Gray-1, #333);
+    font-size: 24px;
+    font-weight: 500;
+}
+.header-button:hover{
+    background-color: #156963;
+    color: white;
+    .button-div h2{
+    color: white;}
+}
+/* header end */
+/* info */
+.info{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 80px;
+    margin-top: 700px;
+}
+.info-cards{
+    width: 268px;
+    height: 155px;
+    padding: 21px 16px;
+    border: 1px solid grey;
+    padding-bottom: 0px;
+
+}
+.cards-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    .h3{
+        width: 137px;
+        color: var(--akana-green, #156963);
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+    .h4{
+        width: 180px;
+        font-size: 23px;
+    }
+}
+.info-cards p{
+    width: 236px;
+    color: var(--kq-black, #2C1500);
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+}
+.h4{
+    font-size: 1px;
+}
+/* info end */
+/* plants */
+.plants{
+    justify-content: space-between;
+}
+.container-button{
+    gap: 12px;
+    align-items: center;
+    .button-p{
+        font-size: 12px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+.cards-p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* plants end */
+/* cards */
+.cards{
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 217px;
+    height: 281px;
+    text-align: center;
+    gap: 5px;
+}
+/* cards end */
+/* main */
+.main{
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.main-h1{
+    width: 522px;
+    color: var(--kq-black, #2C1500);
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.main-left p{
+    width: 506.694px;
+    color: var(--kq-black, #2C1500);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    opacity: 0.5;
+}
+.h2{
+    margin-bottom: 40px;
+}
+.main-button{
+    display: flex;
+    width: 152px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    background: var(--akana-green, #156963);
+}
+/* main end */
+/* footer */
+footer{
+    width: 910px;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.footer1 h1{
+    color: var(--akana-green, #156963);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.p1{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer1 p{
+    width: 282px;
+    color: var(--Gray-2, #4F4F4F);
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer-links li{
+    margin-bottom: 8px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-button{
+    display: flex;
+    margin-top: 14px;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--akana-green, #156963);
+}
+.whitehacker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #156963;
+}
+/* footer end */
